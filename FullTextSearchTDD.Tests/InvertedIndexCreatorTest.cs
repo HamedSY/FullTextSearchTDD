@@ -1,4 +1,5 @@
 using System.Collections;
+using FullTextSearchTDD.Controller;
 
 namespace FullTextSearchTDD.Tests;
 
@@ -6,13 +7,13 @@ public class InvertedIndexCreatorTest
 {
     [Theory]
     [MemberData(nameof(SplitTextData))]
-    public void SplitText_ReturnCorrectSplitText(List<string> expectedSplitText, string text)
+    public void SplitUppedText_ReturnCorrectSplitText(List<string> expectedSplitText, string text)
     {
         // Arrange
         var invertedIndexCreator = new InvertedIndexCreator();
 
         // Act
-        var splitText = invertedIndexCreator.SplitText(text);
+        var splitText = invertedIndexCreator.SplitUppedText(text);
 
         // Assert
         Assert.True(expectedSplitText.SequenceEqual(splitText));
@@ -20,14 +21,7 @@ public class InvertedIndexCreatorTest
 
     public static IEnumerable<object[]> SplitTextData()
     {
-        yield return new object[] { new List<string> { "Hello", "How", "are", "you" }, "Hello----!!!How   are you??" };
-    }
-}
-
-public class InvertedIndexCreator
-{
-    public List<string> SplitText(string text)
-    {
-        throw new NotImplementedException();
+        yield return new object[] { new List<string> { "HELLO", "HOW", "ARE", "YOU" }, "Hello----!!!How   are you??" };
+        yield return new object[] { new List<string> { "YOU", "KNOW" }, "yoU@---knoW???!" };
     }
 }

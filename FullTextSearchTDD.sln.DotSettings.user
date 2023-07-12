@@ -8,5 +8,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.DataReaderTest.MakeADocumentListFromFiles_ShouldCreateACorrectList&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.InvertedIndexCreatorTest.SplitDocumentContent_ReturnCorrectSplitText&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.InvertedIndexCreatorTest.SplitText_ReturnCorrectSplitText&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
