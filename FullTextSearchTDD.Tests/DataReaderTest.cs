@@ -2,7 +2,7 @@ namespace FullTextSearchTDD.Tests;
 
 public class DataReaderTest
 {
-    private const string Path =
+    private const string path =
         @"C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\EnglishData";
 
     [Theory]
@@ -15,17 +15,10 @@ public class DataReaderTest
         var dataReader = new DataReader();
 
         // Act
-        var files = dataReader.ReadFiles();
+        var files = dataReader.ReadFilesFromADir(path);
+        var fileNames = files.Select(Path.GetFileName);
         
         // Assert
-        Assert.Contains(fileName, files);
-    }
-}
-
-public class DataReader
-{
-    public IEnumerable<string> ReadFiles()
-    {
-        throw new NotImplementedException();
+        Assert.Contains(fileName, fileNames);
     }
 }
