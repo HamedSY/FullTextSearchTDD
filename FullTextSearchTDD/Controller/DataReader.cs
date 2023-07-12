@@ -11,6 +11,6 @@ public class DataReader
 
     public List<Document> MakeADocumentListFromFiles(IEnumerable<string> files)
     {
-        throw new NotImplementedException();
+        return files.Select(f => new Document(Path.GetFileName(f), File.ReadAllText(f))).ToList();
     }
 }
