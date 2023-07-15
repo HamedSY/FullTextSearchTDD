@@ -1,6 +1,6 @@
 using FullTextSearchTDD.Model;
 
-namespace FullTextSearchTDD;
+namespace FullTextSearchTDD.Controller;
 
 public class DataReader
 {

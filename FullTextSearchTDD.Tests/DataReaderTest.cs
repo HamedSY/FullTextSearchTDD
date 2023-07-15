@@ -1,3 +1,4 @@
+using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
 namespace FullTextSearchTDD.Tests;
