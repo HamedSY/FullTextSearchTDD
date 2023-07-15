@@ -26,6 +26,19 @@ public class SearcherTest
 
     public static IEnumerable<object[]> HandleEachInputData()
     {
+        var testInvertedIndex = new Dictionary<string, HashSet<string>>
+        {
+            { "SALAM", new HashSet<string> { "test1", "test2", "test3" } },
+            { "HAMED", new HashSet<string> { "test1", "test3" } },
+            { "KHOBI", new HashSet<string> { "test1" } },
+            { "ALI", new HashSet<string> { "test2" } },
+            { "CHETORI", new HashSet<string> { "test2" } },
+            { "ALEIKE", new HashSet<string> { "test3" } },
+            { "JOOOOON", new HashSet<string> { "test3" } },
+            { "KHOBAM", new HashSet<string> { "test3" } }
+        };
+
+
         yield return new object[]
         {
             new SearchResult(DocumentNames)
@@ -34,18 +47,27 @@ public class SearcherTest
                 AtLeastOneDocsNumbers = new HashSet<string> { "test1", "test3" },
                 MustNotBeDocsNumbers = new HashSet<string>()
             },
-            "+HAMED",
-            new Dictionary<string, HashSet<string>>
+            "+HAMED", testInvertedIndex
+        };
+        yield return new object[]
+        {
+            new SearchResult(DocumentNames)
             {
-                { "SALAM", new HashSet<string> { "test1", "test2", "test3" } },
-                { "HAMED", new HashSet<string> { "test1", "test3" } },
-                { "KHOBI", new HashSet<string> { "test1" } },
-                { "ALI", new HashSet<string> { "test2" } },
-                { "CHETORI", new HashSet<string> { "test2" } },
-                { "ALEIKE", new HashSet<string> { "test3" } },
-                { "JOOOOON", new HashSet<string> { "test3" } },
-                { "KHOBAM", new HashSet<string> { "test3" } }
+                NecessaryWordsDocsNumbers = DocumentNames,
+                AtLeastOneDocsNumbers = new HashSet<string>(),
+                MustNotBeDocsNumbers = new HashSet<string>() { "test2" }
             },
+            "-ALI", testInvertedIndex
+        };
+        yield return new object[]
+        {
+            new SearchResult(DocumentNames)
+            {
+                NecessaryWordsDocsNumbers = new HashSet<string> { "test3" },
+                AtLeastOneDocsNumbers = new HashSet<string>(),
+                MustNotBeDocsNumbers = new HashSet<string>()
+            },
+            "KHOBAM", testInvertedIndex
         };
     }
 }
