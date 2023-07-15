@@ -8,6 +8,8 @@
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.SearcherTest.HandleEachInput_MakeSetsCorrectly&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.DataReaderTest.ReadFiles_ShouldReadAllFilesInTheFolder&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.SearcherTest.CalculateFoundDocsNumbers_ShouldReturnFoundDocsNumbers_WhenGetsASearchResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.InvertedIndexCreatorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.SearcherTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c1b7a6e_002Dcd67_002D493a_002Da9da_002D5c57b2f8ccfa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MakeADocumentListFromFiles_ShouldCreateACorrectList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

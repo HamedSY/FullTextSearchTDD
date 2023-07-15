@@ -1,5 +1,6 @@
 using System.Collections;
 using FluentAssertions;
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -7,15 +8,19 @@ namespace FullTextSearchTDD.Tests;
 
 public class InvertedIndexCreatorTest
 {
+    private readonly IInvertedIndexCreator _invertedIndexCreator;
+
+    public InvertedIndexCreatorTest()
+    {
+        _invertedIndexCreator = new InvertedIndexCreator();
+    }
+
     [Theory]
     [MemberData(nameof(SplitTextData))]
     public void SplitUppedText_ReturnCorrectSplitText(List<string> expectedSplitText, string text)
     {
-        // Arrange
-        var invertedIndexCreator = new InvertedIndexCreator();
-
         // Act
-        var splitText = invertedIndexCreator.SplitUppedText(text);
+        var splitText = _invertedIndexCreator.SplitUppedText(text);
 
         // Assert
         splitText.Should().BeEquivalentTo(expectedSplitText);
@@ -32,12 +37,8 @@ public class InvertedIndexCreatorTest
     public void CreateInvertedIndex_ReturnCorrectInvertedIndex(
         Dictionary<string, HashSet<string>> expectedInvertedIndex,
         List<Document> documents)
-    {
-        // Arrange
-        var invertedIndexCreator = new InvertedIndexCreator();
-
-        // Act
-        var invertedIndex = invertedIndexCreator.CreateInvertedIndex(documents);
+    {// Act
+        var invertedIndex = _invertedIndexCreator.CreateInvertedIndex(documents);
 
         // Assert
         invertedIndex.Should().BeEquivalentTo(expectedInvertedIndex);

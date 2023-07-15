@@ -1,4 +1,5 @@
 using FluentAssertions;
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -9,17 +10,21 @@ public class DataReaderTest
     private const string Path =
         @"C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\EnglishData";
 
+    private readonly IDataReader _dataReader;
+
+    public DataReaderTest()
+    {
+        _dataReader = new DataReader();
+    }
+
     [Theory]
     [InlineData("57110")]
     [InlineData("59281")]
     [InlineData("59578")]
     public void ReadFiles_ShouldReadAllFilesInTheFolder(string fileName)
     {
-        // Arrange
-        var dataReader = new DataReader();
-
         // Act
-        var files = dataReader.ReadFilesFromADir(Path);
+        var files = _dataReader.ReadFilesFromADir(Path);
         var fileNames = files.Select(System.IO.Path.GetFileName);
 
         // Assert
@@ -32,11 +37,10 @@ public class DataReaderTest
         IEnumerable<string> files)
     {
         // Arrange
-        var dataReader = new DataReader();
         var document = new Document(name, content);
 
         // Act
-        var documents = dataReader.MakeADocumentListFromFiles(files);
+        var documents = _dataReader.MakeADocumentListFromFiles(files);
 
         // Assert
         documents.Should().ContainEquivalentOf(document);

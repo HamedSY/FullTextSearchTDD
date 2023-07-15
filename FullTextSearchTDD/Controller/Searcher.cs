@@ -1,8 +1,9 @@
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Model;
 
 namespace FullTextSearchTDD.Controller;
 
-public class Searcher
+public class Searcher : ISearcher
 {
     public void HandleEachInput(string word, Dictionary<string,HashSet<string>> invertedIndex, SearchResult searchResult)
     {

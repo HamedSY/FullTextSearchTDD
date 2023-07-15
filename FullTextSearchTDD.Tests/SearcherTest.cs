@@ -1,4 +1,5 @@
 using FluentAssertions;
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -7,7 +8,6 @@ namespace FullTextSearchTDD.Tests;
 public class SearcherTest
 {
     private static readonly HashSet<string> TestDocumentNames = new() { "test1", "test2", "test3" };
-
     private static readonly Dictionary<string, HashSet<string>> TestInvertedIndex = new()
     {
         { "SALAM", new HashSet<string> { "test1", "test2", "test3" } },
@@ -20,17 +20,23 @@ public class SearcherTest
         { "KHOBAM", new HashSet<string> { "test3" } }
     };
 
+    private readonly ISearcher _searcher;
+
+    public SearcherTest()
+    {
+        _searcher = new Searcher();
+    }
+
     [Theory]
     [MemberData(nameof(HandleEachInputData))]
     public void HandleEachInput_MakeSetsCorrectly(SearchResult expectedSearchResult, string word,
         Dictionary<string, HashSet<string>> invertedIndex)
     {
         // Arrange
-        var searcher = new Searcher();
         var searchResult = new SearchResult(TestDocumentNames);
 
         // Act
-        searcher.HandleEachInput(word, invertedIndex, searchResult);
+        _searcher.HandleEachInput(word, invertedIndex, searchResult);
 
         // Assert
         searchResult.Should().BeEquivalentTo(expectedSearchResult);
@@ -73,11 +79,8 @@ public class SearcherTest
     public void CalculateFoundDocsNumbers_ShouldReturnFoundDocsNumbers_WhenGetsASearchResult(
         HashSet<string> expectedFoundDocsNumbers, SearchResult searchResult)
     {
-        // Arrange
-        var searcher = new Searcher();
-
         // Act
-        var foundDocsNumbers = searcher.FindWord(searchResult);
+        var foundDocsNumbers = _searcher.FindWord(searchResult);
 
         // Assert
         foundDocsNumbers.Should().BeEquivalentTo(expectedFoundDocsNumbers);

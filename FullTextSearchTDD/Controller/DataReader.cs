@@ -1,8 +1,9 @@
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Model;
 
 namespace FullTextSearchTDD.Controller;
 
-public class DataReader
+public class DataReader : IDataReader
 {
     public IEnumerable<string> ReadFilesFromADir(string dirPath)
     {

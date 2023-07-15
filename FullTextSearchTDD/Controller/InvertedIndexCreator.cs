@@ -1,8 +1,9 @@
+using FullTextSearchTDD.Abstraction;
 using FullTextSearchTDD.Model;
 
 namespace FullTextSearchTDD.Controller;
 
-public class InvertedIndexCreator
+public class InvertedIndexCreator : IInvertedIndexCreator
 {
     private readonly char[] _delimiterChars = new char[]
         { ' ', ',', '=', '-', '|', '>', '<', '(', ')', '?', '!', '.', '@', '/', '_', '\\', ':', '\"', '*' };
