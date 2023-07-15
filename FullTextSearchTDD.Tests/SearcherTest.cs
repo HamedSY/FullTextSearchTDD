@@ -80,13 +80,14 @@ public class SearcherTest
         var foundDocsNumbers = searcher.FindWord(searchResult);
 
         // Assert
+        foundDocsNumbers.Should().BeEquivalentTo(expectedFoundDocsNumbers);
     }
 
     public static IEnumerable<object[]> CalculateFoundDocsNumbersData()
     {
         yield return new object[]
         {
-            new HashSet<string> { "test1", "test2" },
+            new HashSet<string> { "test1" },
             new SearchResult
             {
                 NecessaryWordsDocsNumbers = new HashSet<string> { "test1" },

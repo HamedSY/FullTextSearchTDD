@@ -21,6 +21,10 @@ public class Searcher
 
     public HashSet<string> FindWord(SearchResult searchResult)
     {
-        throw new NotImplementedException();
+        var foundDocsNumbers = new HashSet<string>(searchResult.NecessaryWordsDocsNumbers);
+        if (searchResult.AtLeastOneDocsNumbers.Any())
+            foundDocsNumbers.IntersectWith(searchResult.AtLeastOneDocsNumbers);
+        foundDocsNumbers.ExceptWith(searchResult.MustNotBeDocsNumbers);
+        return foundDocsNumbers;
     }
 }
