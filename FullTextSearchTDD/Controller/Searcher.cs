@@ -18,4 +18,9 @@ public class Searcher
         else
             searchResult.NecessaryWordsDocsNumbers.IntersectWith(invertedIndex[word]);
     }
+
+    public HashSet<string> FindWord(SearchResult searchResult)
+    {
+        throw new NotImplementedException();
+    }
 }

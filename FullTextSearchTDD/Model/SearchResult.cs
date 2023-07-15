@@ -12,4 +12,11 @@ public class SearchResult
         AtLeastOneDocsNumbers = new HashSet<string>();
         MustNotBeDocsNumbers = new HashSet<string>();
     }
+
+    public SearchResult()
+    {
+        NecessaryWordsDocsNumbers = new HashSet<string>();
+        AtLeastOneDocsNumbers = new HashSet<string>();
+        MustNotBeDocsNumbers = new HashSet<string>();
+    }
 }
