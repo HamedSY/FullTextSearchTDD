@@ -1,3 +1,4 @@
+using FluentAssertions;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -22,7 +23,7 @@ public class DataReaderTest
         var fileNames = files.Select(System.IO.Path.GetFileName);
 
         // Assert
-        Assert.Contains(fileName, fileNames);
+        fileNames.Should().Contain(fileName);
     }
 
     [Theory]
@@ -38,7 +39,7 @@ public class DataReaderTest
         var documents = dataReader.MakeADocumentListFromFiles(files);
 
         // Assert
-        Assert.Contains(document, documents, new DocumentValueComparer());
+        documents.Should().ContainEquivalentOf(document);
     }
 
     public static IEnumerable<object[]> DocumentsData()

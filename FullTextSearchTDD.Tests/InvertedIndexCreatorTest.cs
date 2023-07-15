@@ -1,4 +1,5 @@
 using System.Collections;
+using FluentAssertions;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -17,7 +18,7 @@ public class InvertedIndexCreatorTest
         var splitText = invertedIndexCreator.SplitUppedText(text);
 
         // Assert
-        Assert.Equal(expectedSplitText, splitText);
+        splitText.Should().BeEquivalentTo(expectedSplitText);
     }
 
     public static IEnumerable<object[]> SplitTextData()
@@ -39,7 +40,7 @@ public class InvertedIndexCreatorTest
         var invertedIndex = invertedIndexCreator.CreateInvertedIndex(documents);
 
         // Assert
-        Assert.Equal(expectedInvertedIndex, invertedIndex);
+        invertedIndex.Should().BeEquivalentTo(expectedInvertedIndex);
     }
 
     public static IEnumerable<object[]> DocumentsData()
