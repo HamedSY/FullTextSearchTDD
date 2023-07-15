@@ -14,6 +14,21 @@ public class InvertedIndexCreator
 
     public Dictionary<string, HashSet<string>> CreateInvertedIndex(List<Document> documents)
     {
-        throw new NotImplementedException();
+        Dictionary<string, HashSet<string>> invertedIndex = new Dictionary<string, HashSet<string>>();
+        // Iterate on our data
+        foreach (var doc in documents)
+        {
+            var documentWords = SplitUppedText(doc.Content);
+            foreach (var word in documentWords)
+            {
+                if (!invertedIndex.ContainsKey(word))
+                    invertedIndex[word] = new HashSet<string> { doc.Name };
+                else
+                    // Add the file name to the word's index in the dictionary (inverted index)
+                    invertedIndex[word].Add(doc.Name);
+            }
+        }
+
+        return invertedIndex;
     }
 }

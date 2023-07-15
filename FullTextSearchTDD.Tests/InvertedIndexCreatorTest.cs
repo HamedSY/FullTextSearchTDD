@@ -17,7 +17,7 @@ public class InvertedIndexCreatorTest
         var splitText = invertedIndexCreator.SplitUppedText(text);
 
         // Assert
-        Assert.True(expectedSplitText.SequenceEqual(splitText));
+        Assert.Equal(expectedSplitText, splitText);
     }
 
     public static IEnumerable<object[]> SplitTextData()
@@ -39,7 +39,7 @@ public class InvertedIndexCreatorTest
         var invertedIndex = invertedIndexCreator.CreateInvertedIndex(documents);
 
         // Assert
-        Assert.True(expectedInvertedIndex.SequenceEqual(invertedIndex));
+        Assert.Equal(expectedInvertedIndex, invertedIndex);
     }
 
     public static IEnumerable<object[]> DocumentsData()
@@ -48,14 +48,14 @@ public class InvertedIndexCreatorTest
         {
             new Dictionary<string, HashSet<string>>
             {
-                { "Salam", new HashSet<string> { "test1", "test2", "test3" } },
-                { "Hamed", new HashSet<string> { "test1", "test3" } },
-                { "Khobi", new HashSet<string> { "test1" } },
-                { "Ali", new HashSet<string> { "test2" } },
-                { "Chetori", new HashSet<string> { "test2" } },
-                { "Aleike", new HashSet<string> { "test3" } },
-                { "Jooooon", new HashSet<string> { "test3" } },
-                { "Khobam", new HashSet<string> { "test3" } }
+                { "SALAM", new HashSet<string> { "test1", "test2", "test3" } },
+                { "HAMED", new HashSet<string> { "test1", "test3" } },
+                { "KHOBI", new HashSet<string> { "test1" } },
+                { "ALI", new HashSet<string> { "test2" } },
+                { "CHETORI", new HashSet<string> { "test2" } },
+                { "ALEIKE", new HashSet<string> { "test3" } },
+                { "JOOOOON", new HashSet<string> { "test3" } },
+                { "KHOBAM", new HashSet<string> { "test3" } }
             },
             new List<Document>
             {
