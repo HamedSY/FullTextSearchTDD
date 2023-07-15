@@ -7,4 +7,8 @@
         <RootNamespace>FullTextSearchTDD</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Abstraction\" />
+    </ItemGroup>
+
 </Project>

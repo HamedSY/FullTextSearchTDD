@@ -1,3 +1,4 @@
+using FluentAssertions;
 using FullTextSearchTDD.Controller;
 using FullTextSearchTDD.Model;
 
@@ -20,22 +21,20 @@ public class SearcherTest
         searcher.HandleEachInput(word, invertedIndex, searchResult);
 
         // Assert
-        Assert.Equal(expectedSearchResult, searchResult);
+        searchResult.Should().BeEquivalentTo(expectedSearchResult);
     }
 
     public static IEnumerable<object[]> HandleEachInputData()
     {
-        var searchResult = new SearchResult(DocumentNames)
-        {
-            NecessaryWordsDocsNumbers = DocumentNames,
-            AtLeastOneDocsNumbers = new HashSet<string> { "test1", "test2", "test3" },
-            MustNotBeDocsNumbers = new HashSet<string>()
-        };
-
         yield return new object[]
         {
-            searchResult,
-            "+hamed",
+            new SearchResult(DocumentNames)
+            {
+                NecessaryWordsDocsNumbers = DocumentNames,
+                AtLeastOneDocsNumbers = new HashSet<string> { "test1", "test3" },
+                MustNotBeDocsNumbers = new HashSet<string>()
+            },
+            "+HAMED",
             new Dictionary<string, HashSet<string>>
             {
                 { "SALAM", new HashSet<string> { "test1", "test2", "test3" } },
