@@ -7,8 +7,7 @@ namespace FullTextSearchTDD.Tests;
 
 public class DataReaderTest
 {
-    private const string Path =
-        @"C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\EnglishData";
+    private const string Path = "EnglishData";
 
     private readonly IDataReader _dataReader;
 

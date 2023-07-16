@@ -2,6 +2,9 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
+        <PackageId>StarAcademy.Co-Op.FullTextSearchTDD</PackageId>
+        <Authors>Hamed Saboor</Authors>
+        <Company>Star Academy</Company>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>FullTextSearchTDD</RootNamespace>
