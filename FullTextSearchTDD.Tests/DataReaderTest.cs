@@ -47,7 +47,7 @@ public class DataReaderTest
 
     public static IEnumerable<object[]> DocumentsData()
     {
-        var files = new List<string> { Path + "\\58043", Path+ "\\59297" };
+        var files = new List<string> { Path + "/58043", Path+ "/59297" };
         yield return new object[]
         {
             "58043",

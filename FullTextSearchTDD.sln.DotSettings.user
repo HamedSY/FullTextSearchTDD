@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\h.sabour\AppData\Local\JetBrains\Rider2023.1\resharper-host\temp\Rider\vAny\CoverageData\_FullTextSearchTDD.457531717\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=633eb76f_002D91e2_002D4585_002D851b_002D98733fb9195b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReadData_ShouldReadAllFilesInTheFolder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=633eb76f_002D91e2_002D4585_002D851b_002D98733fb9195b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReadData_ShouldReadAllFilesInTheFolder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.DataReaderTest.MakeADocumentListFromFiles_ShouldCreateACorrectList&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.InvertedIndexCreatorTest.CreateInvertedIndex_ReturnCorrectInvertedIndex&lt;/TestId&gt;&#xD;
@@ -10,6 +10,7 @@
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.SearcherTest.CalculateFoundDocsNumbers_ShouldReturnFoundDocsNumbers_WhenGetsASearchResult&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.InvertedIndexCreatorTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.SearcherTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::675EAEA5-6502-4B53-A674-E5769D6E421F::net7.0::FullTextSearchTDD.Tests.DataReaderTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c1b7a6e_002Dcd67_002D493a_002Da9da_002D5c57b2f8ccfa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MakeADocumentListFromFiles_ShouldCreateACorrectList" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
