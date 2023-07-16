@@ -28,4 +28,4 @@ jobs:
         working-directory: FullTextSearchTDD
         
       - name: Publish NuGet Package
-        run: dotnet nuget push ./**/*.symbols.nupkg --api-key oy2iai6bivekrwbcvu6azvj4aspjuhaubnb7lhera4pcvi -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ./**/*.nupkg --api-key oy2iai6bivekrwbcvu6azvj4aspjuhaubnb7lhera4pcvi -s https://api.nuget.org/v3/index.json
