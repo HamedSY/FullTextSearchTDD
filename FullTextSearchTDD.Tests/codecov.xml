@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="135" TotalStatements="135" CoveragePercent="100" ReportType="DetailedXml" DotCoverVersion="2023.1.3">
+  <FileIndices>
+    <File Index="1" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Abstraction\IDataReader.cs" ChecksumAlgorithm="SHA256" Checksum="4EBCA14A275ECA5D1E395B12E713E6F43F2FB2D6D5FAB55B81D4A926013D4DC4" />
+    <File Index="2" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Abstraction\IInvertedIndexCreator.cs" ChecksumAlgorithm="SHA256" Checksum="4214F4CDF7DFF831C64F6223C0B933D475DFF31A6841838F9F580272BB648877" />
+    <File Index="3" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Abstraction\ISearcher.cs" ChecksumAlgorithm="SHA256" Checksum="A538E514C0D280F441B3E78E18E55EEE60060A00C7CF466CAFCD8A5C63D8B0CF" />
+    <File Index="4" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Controller\DataReader.cs" ChecksumAlgorithm="SHA256" Checksum="251E4D7EE79905C51B0416705C7E716E5761B9B2C0B5FD8625F4B88424A2A776" />
+    <File Index="5" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Controller\InvertedIndexCreator.cs" ChecksumAlgorithm="SHA256" Checksum="A9DC6B8C13BD321655F693FA4260056CFE12E9DC8A443AE82DECE121DEE6576C" />
+    <File Index="6" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Controller\Searcher.cs" ChecksumAlgorithm="SHA256" Checksum="78AA09663475A28665EE1A32E06E5F537A74AE952E2D10E83CDF3B90D0EC3A94" />
+    <File Index="7" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Model\Document.cs" ChecksumAlgorithm="SHA256" Checksum="83465AEAF581B6A24D59B46C4D7E600E3240A44B18B64078ABFB0E30EDAB83A1" />
+    <File Index="8" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\Model\SearchResult.cs" ChecksumAlgorithm="SHA256" Checksum="BF609C40E1A545DB3D19E7C3A16760E7CEB9187CAA1BB0790A9BD57B231705DE" />
+    <File Index="9" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\obj\Debug\net7.0\FullTextSearchTDD.GlobalUsings.g.cs" ChecksumAlgorithm="SHA256" Checksum="F3F134E9E825E3E7268090F58B1AF2BDA2DE513F61A09C56F48B9B8D08612ABC" />
+    <File Index="10" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="AC9DDB5EE1D6ADC61057F3029BF0242B3F619F1F85D4CC8FFA956B76EA48D939" />
+    <File Index="11" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD\obj\Debug\net7.0\FullTextSearchTDD.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="9A58B4DA859F009EE90FE03556A5B2FB0DEB6698BFB4D7CDF1C1742BDD6940E2" />
+    <File Index="19" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\obj\Debug\net7.0\FullTextSearchTDD.Tests.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="EDE61E92ED4AD4CD1751A43BA57FC78A00A3748111708527BFDA35DC0A777841" />
+    <File Index="18" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="AC9DDB5EE1D6ADC61057F3029BF0242B3F619F1F85D4CC8FFA956B76EA48D939" />
+    <File Index="17" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\obj\Debug\net7.0\FullTextSearchTDD.Tests.GlobalUsings.g.cs" ChecksumAlgorithm="SHA256" Checksum="F3F134E9E825E3E7268090F58B1AF2BDA2DE513F61A09C56F48B9B8D08612ABC" />
+    <File Index="16" Name="C:\Users\h.sabour\.nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
+    <File Index="15" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\Usings.cs" ChecksumAlgorithm="SHA256" Checksum="E8DE9B91579BA661CBFEBD3912328C2DC917D2A519CC565B717446C7F39E6D33" />
+    <File Index="14" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\SearcherTest.cs" ChecksumAlgorithm="SHA256" Checksum="8F1F57BA7B00A79E27BCE07310C1084D7300194370865887EAA680AE15D802AA" />
+    <File Index="13" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\InvertedIndexCreatorTest.cs" ChecksumAlgorithm="SHA256" Checksum="ABA209F5124AA94AD7A9192B38278860EDCA562264D71EB4FD871846FD8FD16E" />
+    <File Index="12" Name="C:\Users\h.sabour\Documents\RiderProjects\StarAcademy\FullTextSearchTDD\FullTextSearchTDD.Tests\DataReaderTest.cs" ChecksumAlgorithm="SHA256" Checksum="80D5B89488871307A79439562A58A27117C7A0A9C4D6817D170B31DCA393C886" />
+  </FileIndices>
+  <Assembly Name="FullTextSearchTDD" CoveredStatements="72" TotalStatements="72" CoveragePercent="100">
+    <Namespace Name="FullTextSearchTDD.Controller" CoveredStatements="45" TotalStatements="45" CoveragePercent="100">
+      <Type Name="DataReader" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+        <Type Name="&lt;&gt;c" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="&lt;MakeADocumentListFromFiles&gt;b__1_0(System.String):FullTextSearchTDD.Model.Document" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="4" Line="15" Column="34" EndLine="15" EndColumn="88" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name="MakeADocumentListFromFiles(System.Collections.Generic.IEnumerable&lt;System.String&gt;):System.Collections.Generic.List&lt;FullTextSearchTDD.Model.Document&gt;" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="4" Line="14" Column="5" EndLine="14" EndColumn="6" Covered="True" />
+          <Statement FileIndex="4" Line="15" Column="9" EndLine="15" EndColumn="99" Covered="True" />
+          <Statement FileIndex="4" Line="16" Column="5" EndLine="16" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="ReadFilesFromADir(System.String):System.Collections.Generic.IEnumerable&lt;System.String&gt;" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="4" Line="9" Column="5" EndLine="9" EndColumn="6" Covered="True" />
+          <Statement FileIndex="4" Line="10" Column="9" EndLine="10" EndColumn="50" Covered="True" />
+          <Statement FileIndex="4" Line="11" Column="5" EndLine="11" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="InvertedIndexCreator" CoveredStatements="24" TotalStatements="24" CoveragePercent="100">
+        <Method Name=".ctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="5" Line="8" Column="5" EndLine="9" EndColumn="109" Covered="True" />
+        </Method>
+        <Method Name="CreateInvertedIndex(System.Collections.Generic.List&lt;FullTextSearchTDD.Model.Document&gt;):System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.HashSet&lt;System.String&gt;&gt;" CoveredStatements="20" TotalStatements="20" CoveragePercent="100">
+          <Statement FileIndex="5" Line="17" Column="5" EndLine="17" EndColumn="6" Covered="True" />
+          <Statement FileIndex="5" Line="18" Column="9" EndLine="18" EndColumn="103" Covered="True" />
+          <Statement FileIndex="5" Line="20" Column="9" EndLine="20" EndColumn="16" Covered="True" />
+          <Statement FileIndex="5" Line="20" Column="29" EndLine="20" EndColumn="38" Covered="True" />
+          <Statement FileIndex="5" Line="20" Column="18" EndLine="20" EndColumn="25" Covered="True" />
+          <Statement FileIndex="5" Line="21" Column="9" EndLine="21" EndColumn="10" Covered="True" />
+          <Statement FileIndex="5" Line="22" Column="13" EndLine="22" EndColumn="61" Covered="True" />
+          <Statement FileIndex="5" Line="23" Column="13" EndLine="23" EndColumn="20" Covered="True" />
+          <Statement FileIndex="5" Line="23" Column="34" EndLine="23" EndColumn="47" Covered="True" />
+          <Statement FileIndex="5" Line="23" Column="22" EndLine="23" EndColumn="30" Covered="True" />
+          <Statement FileIndex="5" Line="24" Column="13" EndLine="24" EndColumn="14" Covered="True" />
+          <Statement FileIndex="5" Line="25" Column="17" EndLine="25" EndColumn="54" Covered="True" />
+          <Statement FileIndex="5" Line="26" Column="21" EndLine="26" EndColumn="76" Covered="True" />
+          <Statement FileIndex="5" Line="29" Column="21" EndLine="29" EndColumn="55" Covered="True" />
+          <Statement FileIndex="5" Line="30" Column="13" EndLine="30" EndColumn="14" Covered="True" />
+          <Statement FileIndex="5" Line="23" Column="31" EndLine="23" EndColumn="33" Covered="True" />
+          <Statement FileIndex="5" Line="31" Column="9" EndLine="31" EndColumn="10" Covered="True" />
+          <Statement FileIndex="5" Line="20" Column="26" EndLine="20" EndColumn="28" Covered="True" />
+          <Statement FileIndex="5" Line="33" Column="9" EndLine="33" EndColumn="30" Covered="True" />
+          <Statement FileIndex="5" Line="34" Column="5" EndLine="34" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="SplitUppedText(System.String):System.Collections.Generic.IEnumerable&lt;System.String&gt;" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="5" Line="12" Column="5" EndLine="12" EndColumn="6" Covered="True" />
+          <Statement FileIndex="5" Line="13" Column="9" EndLine="13" EndColumn="102" Covered="True" />
+          <Statement FileIndex="5" Line="14" Column="5" EndLine="14" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="Searcher" CoveredStatements="14" TotalStatements="14" CoveragePercent="100">
+        <Method Name="FindWord(FullTextSearchTDD.Model.SearchResult):System.Collections.Generic.HashSet&lt;System.String&gt;" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+          <Statement FileIndex="6" Line="24" Column="5" EndLine="24" EndColumn="6" Covered="True" />
+          <Statement FileIndex="6" Line="25" Column="9" EndLine="25" EndColumn="92" Covered="True" />
+          <Statement FileIndex="6" Line="26" Column="9" EndLine="26" EndColumn="54" Covered="True" />
+          <Statement FileIndex="6" Line="27" Column="13" EndLine="27" EndColumn="80" Covered="True" />
+          <Statement FileIndex="6" Line="28" Column="9" EndLine="28" EndColumn="72" Covered="True" />
+          <Statement FileIndex="6" Line="29" Column="9" EndLine="29" EndColumn="33" Covered="True" />
+          <Statement FileIndex="6" Line="30" Column="5" EndLine="30" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="HandleEachInput(System.String,System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.HashSet&lt;System.String&gt;&gt;,FullTextSearchTDD.Model.SearchResult):System.Void" CoveredStatements="7" TotalStatements="7" CoveragePercent="100">
+          <Statement FileIndex="6" Line="9" Column="5" EndLine="9" EndColumn="6" Covered="True" />
+          <Statement FileIndex="6" Line="11" Column="9" EndLine="11" EndColumn="34" Covered="True" />
+          <Statement FileIndex="6" Line="12" Column="13" EndLine="12" EndColumn="84" Covered="True" />
+          <Statement FileIndex="6" Line="15" Column="14" EndLine="15" EndColumn="39" Covered="True" />
+          <Statement FileIndex="6" Line="16" Column="13" EndLine="16" EndColumn="83" Covered="True" />
+          <Statement FileIndex="6" Line="20" Column="13" EndLine="20" EndColumn="87" Covered="True" />
+          <Statement FileIndex="6" Line="21" Column="5" EndLine="21" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+    <Namespace Name="FullTextSearchTDD.Model" CoveredStatements="27" TotalStatements="27" CoveragePercent="100">
+      <Type Name="Document" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+        <Method Name=".ctor(System.String,System.String):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="7" Line="8" Column="5" EndLine="8" EndColumn="49" Covered="True" />
+          <Statement FileIndex="7" Line="9" Column="5" EndLine="9" EndColumn="6" Covered="True" />
+          <Statement FileIndex="7" Line="10" Column="9" EndLine="10" EndColumn="21" Covered="True" />
+          <Statement FileIndex="7" Line="11" Column="9" EndLine="11" EndColumn="27" Covered="True" />
+          <Statement FileIndex="7" Line="12" Column="5" EndLine="12" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="get_Content():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="7" Line="6" Column="34" EndLine="6" EndColumn="38" Covered="True" />
+        </Method>
+        <Method Name="get_Name():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="7" Line="5" Column="31" EndLine="5" EndColumn="35" Covered="True" />
+        </Method>
+        <Method Name="set_Content(System.String):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="7" Line="6" Column="29" EndLine="6" EndColumn="33" Covered="True" />
+        </Method>
+        <Method Name="set_Name(System.String):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="7" Line="5" Column="26" EndLine="5" EndColumn="30" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="SearchResult" CoveredStatements="18" TotalStatements="18" CoveragePercent="100">
+        <Method Name=".ctor():System.Void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Statement FileIndex="8" Line="16" Column="5" EndLine="16" EndColumn="26" Covered="True" />
+          <Statement FileIndex="8" Line="17" Column="5" EndLine="17" EndColumn="6" Covered="True" />
+          <Statement FileIndex="8" Line="18" Column="9" EndLine="18" EndColumn="59" Covered="True" />
+          <Statement FileIndex="8" Line="19" Column="9" EndLine="19" EndColumn="55" Covered="True" />
+          <Statement FileIndex="8" Line="20" Column="9" EndLine="20" EndColumn="54" Covered="True" />
+          <Statement FileIndex="8" Line="21" Column="5" EndLine="21" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name=".ctor(System.Collections.Generic.HashSet&lt;System.String&gt;):System.Void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Statement FileIndex="8" Line="9" Column="5" EndLine="9" EndColumn="55" Covered="True" />
+          <Statement FileIndex="8" Line="10" Column="5" EndLine="10" EndColumn="6" Covered="True" />
+          <Statement FileIndex="8" Line="11" Column="9" EndLine="11" EndColumn="72" Covered="True" />
+          <Statement FileIndex="8" Line="12" Column="9" EndLine="12" EndColumn="55" Covered="True" />
+          <Statement FileIndex="8" Line="13" Column="9" EndLine="13" EndColumn="54" Covered="True" />
+          <Statement FileIndex="8" Line="14" Column="5" EndLine="14" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="get_AtLeastOneDocsNumbers():System.Collections.Generic.HashSet&lt;System.String&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="6" Column="57" EndLine="6" EndColumn="61" Covered="True" />
+        </Method>
+        <Method Name="get_MustNotBeDocsNumbers():System.Collections.Generic.HashSet&lt;System.String&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="7" Column="56" EndLine="7" EndColumn="60" Covered="True" />
+        </Method>
+        <Method Name="get_NecessaryWordsDocsNumbers():System.Collections.Generic.HashSet&lt;System.String&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="5" Column="61" EndLine="5" EndColumn="65" Covered="True" />
+        </Method>
+        <Method Name="set_AtLeastOneDocsNumbers(System.Collections.Generic.HashSet&lt;System.String&gt;):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="6" Column="52" EndLine="6" EndColumn="56" Covered="True" />
+        </Method>
+        <Method Name="set_MustNotBeDocsNumbers(System.Collections.Generic.HashSet&lt;System.String&gt;):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="7" Column="51" EndLine="7" EndColumn="55" Covered="True" />
+        </Method>
+        <Method Name="set_NecessaryWordsDocsNumbers(System.Collections.Generic.HashSet&lt;System.String&gt;):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="8" Line="5" Column="56" EndLine="5" EndColumn="60" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="FullTextSearchTDD.Tests" CoveredStatements="63" TotalStatements="63" CoveragePercent="100">
+    <Namespace Name="FullTextSearchTDD.Tests" CoveredStatements="63" TotalStatements="63" CoveragePercent="100">
+      <Type Name="DataReaderTest" CoveredStatements="19" TotalStatements="19" CoveragePercent="100">
+        <Type Name="&lt;DocumentsData&gt;d__5" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Method Name="MoveNext():System.Boolean" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+            <Statement FileIndex="12" Line="49" Column="5" EndLine="49" EndColumn="6" Covered="True" />
+            <Statement FileIndex="12" Line="50" Column="9" EndLine="50" EndColumn="74" Covered="True" />
+            <Statement FileIndex="12" Line="51" Column="9" EndLine="56" EndColumn="11" Covered="True" />
+            <Statement FileIndex="12" Line="57" Column="9" EndLine="62" EndColumn="11" Covered="True" />
+            <Statement FileIndex="12" Line="63" Column="5" EndLine="63" EndColumn="6" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor():System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="12" Line="14" Column="5" EndLine="14" EndColumn="28" Covered="True" />
+          <Statement FileIndex="12" Line="15" Column="5" EndLine="15" EndColumn="6" Covered="True" />
+          <Statement FileIndex="12" Line="16" Column="9" EndLine="16" EndColumn="40" Covered="True" />
+          <Statement FileIndex="12" Line="17" Column="5" EndLine="17" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="MakeADocumentListFromFiles_ShouldCreateACorrectList(System.String,System.String,System.Collections.Generic.IEnumerable&lt;System.String&gt;):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="12" Line="37" Column="5" EndLine="37" EndColumn="6" Covered="True" />
+          <Statement FileIndex="12" Line="39" Column="9" EndLine="39" EndColumn="52" Covered="True" />
+          <Statement FileIndex="12" Line="42" Column="9" EndLine="42" EndColumn="71" Covered="True" />
+          <Statement FileIndex="12" Line="45" Column="9" EndLine="45" EndColumn="58" Covered="True" />
+          <Statement FileIndex="12" Line="46" Column="5" EndLine="46" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="ReadFiles_ShouldReadAllFilesInTheFolder(System.String):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="12" Line="24" Column="5" EndLine="24" EndColumn="6" Covered="True" />
+          <Statement FileIndex="12" Line="26" Column="9" EndLine="26" EndColumn="57" Covered="True" />
+          <Statement FileIndex="12" Line="27" Column="9" EndLine="27" EndColumn="66" Covered="True" />
+          <Statement FileIndex="12" Line="30" Column="9" EndLine="30" EndColumn="46" Covered="True" />
+          <Statement FileIndex="12" Line="31" Column="5" EndLine="31" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="InvertedIndexCreatorTest" CoveredStatements="19" TotalStatements="19" CoveragePercent="100">
+        <Type Name="&lt;DocumentsData&gt;d__5" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name="MoveNext():System.Boolean" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+            <Statement FileIndex="13" Line="48" Column="5" EndLine="48" EndColumn="6" Covered="True" />
+            <Statement FileIndex="13" Line="49" Column="9" EndLine="68" EndColumn="11" Covered="True" />
+            <Statement FileIndex="13" Line="69" Column="5" EndLine="69" EndColumn="6" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;SplitTextData&gt;d__3" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Method Name="MoveNext():System.Boolean" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+            <Statement FileIndex="13" Line="30" Column="5" EndLine="30" EndColumn="6" Covered="True" />
+            <Statement FileIndex="13" Line="31" Column="9" EndLine="31" EndColumn="120" Covered="True" />
+            <Statement FileIndex="13" Line="32" Column="9" EndLine="32" EndColumn="93" Covered="True" />
+            <Statement FileIndex="13" Line="33" Column="5" EndLine="33" EndColumn="6" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".ctor():System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="13" Line="13" Column="5" EndLine="13" EndColumn="38" Covered="True" />
+          <Statement FileIndex="13" Line="14" Column="5" EndLine="14" EndColumn="6" Covered="True" />
+          <Statement FileIndex="13" Line="15" Column="9" EndLine="15" EndColumn="60" Covered="True" />
+          <Statement FileIndex="13" Line="16" Column="5" EndLine="16" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="CreateInvertedIndex_ReturnCorrectInvertedIndex(System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.HashSet&lt;System.String&gt;&gt;,System.Collections.Generic.List&lt;FullTextSearchTDD.Model.Document&gt;):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="13" Line="40" Column="5" EndLine="40" EndColumn="6" Covered="True" />
+          <Statement FileIndex="13" Line="41" Column="9" EndLine="41" EndColumn="82" Covered="True" />
+          <Statement FileIndex="13" Line="44" Column="9" EndLine="44" EndColumn="70" Covered="True" />
+          <Statement FileIndex="13" Line="45" Column="5" EndLine="45" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="SplitUppedText_ReturnCorrectSplitText(System.Collections.Generic.List&lt;System.String&gt;,System.String):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="13" Line="21" Column="5" EndLine="21" EndColumn="6" Covered="True" />
+          <Statement FileIndex="13" Line="23" Column="9" EndLine="23" EndColumn="68" Covered="True" />
+          <Statement FileIndex="13" Line="26" Column="9" EndLine="26" EndColumn="62" Covered="True" />
+          <Statement FileIndex="13" Line="27" Column="5" EndLine="27" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+      <Type Name="SearcherTest" CoveredStatements="25" TotalStatements="25" CoveragePercent="100">
+        <Type Name="&lt;CalculateFoundDocsNumbersData&gt;d__7" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Method Name="MoveNext():System.Boolean" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+            <Statement FileIndex="14" Line="90" Column="5" EndLine="90" EndColumn="6" Covered="True" />
+            <Statement FileIndex="14" Line="91" Column="9" EndLine="100" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="101" Column="9" EndLine="109" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="110" Column="9" EndLine="118" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="119" Column="5" EndLine="119" EndColumn="6" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;HandleEachInputData&gt;d__5" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Method Name="MoveNext():System.Boolean" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+            <Statement FileIndex="14" Line="46" Column="5" EndLine="46" EndColumn="6" Covered="True" />
+            <Statement FileIndex="14" Line="47" Column="9" EndLine="55" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="56" Column="9" EndLine="64" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="65" Column="9" EndLine="74" EndColumn="11" Covered="True" />
+            <Statement FileIndex="14" Line="75" Column="5" EndLine="75" EndColumn="6" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".cctor():System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Statement FileIndex="14" Line="10" Column="5" EndLine="10" EndColumn="101" Covered="True" />
+          <Statement FileIndex="14" Line="11" Column="5" EndLine="21" EndColumn="7" Covered="True" />
+        </Method>
+        <Method Name=".ctor():System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="14" Line="25" Column="5" EndLine="25" EndColumn="26" Covered="True" />
+          <Statement FileIndex="14" Line="26" Column="5" EndLine="26" EndColumn="6" Covered="True" />
+          <Statement FileIndex="14" Line="27" Column="9" EndLine="27" EndColumn="36" Covered="True" />
+          <Statement FileIndex="14" Line="28" Column="5" EndLine="28" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="CalculateFoundDocsNumbers_ShouldReturnFoundDocsNumbers_WhenGetsASearchResult(System.Collections.Generic.HashSet&lt;System.String&gt;,FullTextSearchTDD.Model.SearchResult):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="14" Line="81" Column="5" EndLine="81" EndColumn="6" Covered="True" />
+          <Statement FileIndex="14" Line="83" Column="9" EndLine="83" EndColumn="65" Covered="True" />
+          <Statement FileIndex="14" Line="86" Column="9" EndLine="86" EndColumn="76" Covered="True" />
+          <Statement FileIndex="14" Line="87" Column="5" EndLine="87" EndColumn="6" Covered="True" />
+        </Method>
+        <Method Name="HandleEachInput_MakeSetsCorrectly(FullTextSearchTDD.Model.SearchResult,System.String,System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.HashSet&lt;System.String&gt;&gt;):System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="14" Line="34" Column="5" EndLine="34" EndColumn="6" Covered="True" />
+          <Statement FileIndex="14" Line="36" Column="9" EndLine="36" EndColumn="64" Covered="True" />
+          <Statement FileIndex="14" Line="39" Column="9" EndLine="39" EndColumn="70" Covered="True" />
+          <Statement FileIndex="14" Line="42" Column="9" EndLine="42" EndColumn="68" Covered="True" />
+          <Statement FileIndex="14" Line="43" Column="5" EndLine="43" EndColumn="6" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
