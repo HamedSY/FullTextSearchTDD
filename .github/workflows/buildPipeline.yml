@@ -31,5 +31,6 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./**/codecov.xml
+          version: "v0.1.15"
+          files: ./FullTextSearchTDD.Tests/codecov.xml
           fail_ci_if_error: true
