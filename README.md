@@ -1,6 +1,6 @@
 # FullTextSearchTDD
 
-![example workflow](https://github.com/FullTextSearchTDD/actions/workflows/buildPipeline.yml/badge.svg)
+![master workflow](https://github.com/HamedSY/FullTextSearchTDD/actions/workflows/buildPipeline.yml/badge.svg)
 [![codecov](https://codecov.io/gh/HamedSY/FullTextSearchTDD/branch/master/graph/badge.svg?token=0JI52BSVWD)](https://codecov.io/gh/HamedSY/FullTextSearchTDD)
 
 
