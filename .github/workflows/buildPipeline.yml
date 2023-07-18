@@ -2,9 +2,9 @@ name: fullTextSearchPipeline
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, CICD/config ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, CICD/config ]
 
 jobs:
   build:
